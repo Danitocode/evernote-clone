@@ -3,13 +3,14 @@ import Form from './Form'
 
 
 const Home = () => {
-
+    console.log('home', )
     return (
         <div className="container ">
             <div className="row center-align">
-                <div className="col s7"><Form /></div>
             </div>
- 
+            <Form>
+
+            </Form>
         </div>
     )
 }
